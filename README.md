@@ -1,2 +1,14 @@
-# hello-world
-diy python n00b. Already its openness has struck me as a positive about this community, such as it is.
+# hello-dog
+#include "../std_lib_facilities.h"
+
+int main()
+{
+std::string dog;
+
+std::cout<<"Tell me what kind of dog you like: \n";
+
+std::cin>>dog;
+
+std::cout<<"I really like " << dog << " too!\n";
+
+}
